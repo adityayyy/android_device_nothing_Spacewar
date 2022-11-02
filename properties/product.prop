@@ -32,6 +32,8 @@ bluetooth.profile.sap.server.enabled?=true
 
 # eBPF
 ro.bpf.kver_override=5.10.239
+# Camera
+ro.camerax.extensions.enabled=true
 
 # Thermal
 persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
