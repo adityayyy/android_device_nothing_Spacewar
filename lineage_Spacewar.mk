@@ -20,6 +20,14 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common custom stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
+# Lunaris flags
+LUNARIS_BUILD_TYPE := OFFICIAL
+WITH_GMS := true
+TARGET_CUSTOM_UDFPS := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := infinity_Spacewar
 PRODUCT_DEVICE := Spacewar
