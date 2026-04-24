@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+import os
+
 from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
@@ -68,3 +70,4 @@ module = ExtractUtilsModule(
 if __name__ == '__main__':
     utils = ExtractUtils.device(module)
     utils.run()
+    os.system('./modem.sh')
