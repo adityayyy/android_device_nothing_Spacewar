@@ -71,6 +71,9 @@ TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_qca6750.ko
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
+#camera
+$(call soong_config_set,camera,package_name,com.android.camera)
+
 # Audio
 AUDIO_FEATURE_ENABLED_DLKM := true
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
