@@ -50,11 +50,9 @@
 
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
-<<<<<<< HEAD:rro_overlays/SettingsSpacewarOverlay/res/values/config.xml
-=======
-    
+
+   
     <!-- Whether to use PowerProfile as the primary source for battery design capacity -->
     <bool name="config_use_power_profile_for_battery_capacity">true</bool>
 
->>>>>>> 820ac65 (LunarisOS Bringup):overlay/packages/apps/Settings/res/values/config.xml
 </resources>
