@@ -303,12 +303,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,hardware/nothing/media/audio/ringtones,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones) \
     $(call find-copy-subdir-files,*,hardware/nothing/media/audio/ui,$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui)
 
-# Nothing Audio Defaults
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=Beetle.ogg \
-    ro.config.notification_sound=Beak.ogg \
-    ro.config.alarm_alert=Kashio.ogg
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
