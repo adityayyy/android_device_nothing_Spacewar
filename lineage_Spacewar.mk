@@ -16,7 +16,7 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Lunaris flags
-LUNARIS_BUILD_TYPE := OFFICIAL
+LUNARIS_BUILD_TYPE := UNOFFICIAL
 WITH_GMS := true
 TARGET_CUSTOM_UDFPS := true
 TARGET_OPTIMIZED_DEXOPT := true
