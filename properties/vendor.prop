@@ -103,6 +103,7 @@ persist.vendor.qdsp.log.disable=1
 persist.vendor.camera.is_type=4
 persist.vendor.camera.eis.enable=1
 persist.vendor.camera.expose.aux=1
+vendor.camera.aux.packagelist=com.snapchat.android
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
