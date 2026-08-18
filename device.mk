@@ -92,7 +92,7 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Paranoid Glyph
 PRODUCT_PACKAGES += \
-    GlyphManager \
+    ParanoidGlyphPhone1 \
     GlyphAdapter
 
 PRODUCT_COPY_FILES += \
