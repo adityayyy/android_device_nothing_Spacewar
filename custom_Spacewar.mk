@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 # Lunaris flags
 LUNARIS_BUILD_TYPE := UNOFFICIAL
@@ -24,7 +24,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_Spacewar
+PRODUCT_NAME := custom_Spacewar
 PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
