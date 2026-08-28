@@ -26,14 +26,6 @@ enum vibrationMode {
 
 static vibrationMode sLastMode = MODE_NONE;
 
-enum vibrationMode {
-    MODE_NONE,
-    MODE_TIMEOUT,
-    MODE_PREBAKED,
-    MODE_STREAM,
-};
-
-static vibrationMode sLastMode = MODE_NONE;
 
 namespace aidl {
 namespace android {
