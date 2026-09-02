@@ -12,6 +12,34 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from Spacewar device
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
+# rising flags 
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="Aditya"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 778g+" \
+    RisingMaintainer="Aditya"
+
+RISING_MAINTAINER :=  Aditya
+
+# Disable/enable blur support, false by default
+TARGET_ENABLE_BLUR := true
+
+# Whether to ship aperture camera, false by default
+PRODUCT_NO_CAMERA := true
+
+# GMS build flags, true by default
+# Ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
+WITH_GMS := true
+
+# CORE build flags
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
