@@ -195,6 +195,9 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
