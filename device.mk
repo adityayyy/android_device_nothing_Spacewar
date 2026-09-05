@@ -54,6 +54,11 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1 \
+    android.hardware.keymaster@4.1.vendor
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
